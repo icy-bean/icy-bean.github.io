@@ -1,0 +1,14 @@
+# robots.txt - 爬虫规则
+
+# 允许所有爬虫访问
+User-Agent: *
+Allow: /
+
+# 禁止爬虫访问特定路径
+Disallow: /admin
+Disallow: /api
+Disallow: /_nuxt
+Disallow: /_error
+
+# Sitemap 位置
+Sitemap: https://www.icybean.cn/sitemap.xml
