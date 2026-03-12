@@ -22,7 +22,7 @@
 <style>.comment-list[data-v-7efb2823]{margin-bottom:32px}.empty-state[data-v-7efb2823]{background:#f5f7fa;border:1px dashed #dcdfe6;border-radius:8px;color:#909399;padding:48px;text-align:center}.empty-state .iconify[data-v-7efb2823]{font-size:48px;margin-bottom:16px;opacity:.5}.empty-state h3[data-v-7efb2823]{color:#606266;font-size:16px;margin-bottom:8px}.empty-state p[data-v-7efb2823]{font-size:14px}</style>
 <link rel="stylesheet" href="/_nuxt/entry.DjvP_cQf.css" crossorigin>
 <link rel="stylesheet" href="/_nuxt/useStructuredData.DuVU9lYv.css" crossorigin>
-<link rel="preload" as="fetch" crossorigin="anonymous" href="/blog/claude-code-installation-startup/_payload.json?06220d84-46ad-40a8-ac6b-9e90d2584ac5">
+<link rel="preload" as="fetch" crossorigin="anonymous" href="/blog/claude-code-installation-startup/_payload.json?feeb2f6d-8f6e-4dd4-9ef8-650f8d00fc61">
 <link rel="modulepreload" as="script" crossorigin href="/_nuxt/DIgPRsw5.js">
 <link rel="modulepreload" as="script" crossorigin href="/_nuxt/C0zktUnc.js">
 <link rel="modulepreload" as="script" crossorigin href="/_nuxt/BGgzs7D-.js">
@@ -52,7 +52,7 @@
 <link rel="manifest" href="/site.webmanifest">
 <link rel="canonical" href="https://www.icybean.cn/blog/claude-code-installation-startup">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://www.icybean.cn/"},{"@type":"ListItem","position":2,"name":"博客","item":"https://www.icybean.cn/blog"},{"@type":"ListItem","position":3,"name":"实用工具教程","item":"https://www.icybean.cn/categories/shi-yong-gong-ju-jiao-cheng"},{"@type":"ListItem","position":4,"name":"图文详解 Claude Code 从入门到精通（一）：Claude Code 的安装与启动","item":"https://www.icybean.cn/blog/claude-code-installation-startup"}]}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"图文详解 Claude Code 从入门到精通（一）：Claude Code 的安装与启动","description":"Claude Code是Anthropic推出的AI编程命令行工具，专为开发者提供终端内AI协作工作流。本文作为系列入门指南的第一篇，重点介绍其安装与启动流程。文章详细说明了系统要求，包括操作系统、Node.js版本和网络条件，并提供了原生安装和包管理器安装两种方法。针对国内用户，推荐使用智谱GLM Coding Plan以获得更稳定的网络体验和更高性价比，同时给出了具体的配置步骤和模型切换方法。","image":"https://cdn.icybean.cn//blog/images/2026/03/11/bdeb2293470b4f4486fab3b85d212eb8","datePublished":"2026-03-11T16:47:25","dateModified":"2026-03-11T15:57:25","author":{"@type":"Person","name":"冰豆"},"publisher":{"@type":"Organization","name":"冰豆知识站","logo":{"@type":"ImageObject","url":"https://www.icybean.cn/favicon-32.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.icybean.cn/blog/claude-code-installation-startup"},"articleSection":"实用工具教程","keywords":"工具, 技术","inLanguage":"zh-CN","timeRequired":"PT6M"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"图文详解 Claude Code 从入门到精通（一）：Claude Code 的安装与启动","description":"Claude Code是Anthropic推出的AI编程命令行工具，专为开发者提供终端内AI协作工作流。本文作为系列入门指南的第一篇，重点介绍其安装与启动流程。文章详细说明了系统要求，包括操作系统、Node.js版本和网络条件，并提供了原生安装和包管理器安装两种方法。针对国内用户，推荐使用智谱GLM Coding Plan以获得更稳定的网络体验和更高性价比，同时给出了具体的配置步骤和模型切换方法。","image":"https://cdn.icybean.cn//blog/images/2026/03/11/bdeb2293470b4f4486fab3b85d212eb8","datePublished":"2026-03-11T16:47:25","dateModified":"2026-03-11T15:57:25","author":{"@type":"Person","name":"冰豆"},"publisher":{"@type":"Organization","name":"冰豆知识站","logo":{"@type":"ImageObject","url":"https://www.icybean.cn/favicon-32.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.icybean.cn/blog/claude-code-installation-startup"},"articleSection":"实用工具教程","keywords":"工具, 技术","inLanguage":"zh-CN","timeRequired":"PT4M"}</script>
 <meta property="og:url" content="https://www.icybean.cn/blog/claude-code-installation-startup">
 <meta property="article:published_time" content="2026-03-11T16:47:25">
 <meta property="article:author" content="博主">
@@ -60,175 +60,104 @@
 <meta property="article:tag" content="工具,技术">
 <meta name="twitter:title" content="图文详解 Claude Code 从入门到精通（一）：Claude Code 的安装与启动">
 <meta name="twitter:description" content="Claude Code是Anthropic推出的AI编程命令行工具，专为开发者提供终端内AI协作工作流。本文作为系列入门指南的第一篇，重点介绍其安装与启动流程。文章详细说明了系统要求，包括操作系统、Node.js版本和网络条件，并提供了原生安装和包管理器安装两种方法。针对国内用户，推荐使用智谱GLM Coding Plan以获得更稳定的网络体验和更高性价比，同时给出了具体的配置步骤和模型切换方法。">
-<meta name="twitter:image" content="https://cdn.icybean.cn//blog/images/2026/03/11/bdeb2293470b4f4486fab3b85d212eb8"></head><body><!--teleport start anchor--><!----><!--teleport anchor--><div id="__nuxt"><div class="app-layout" data-v-23dcca7e><header class="app-header" data-v-23dcca7e data-v-28854209><div class="container" data-v-28854209><a href="/" class="logo" data-v-28854209><span data-v-28854209>冰豆知识站</span></a><nav class="nav-menu" data-v-28854209><a href="/" class="" data-v-28854209>首页</a><a href="/blog" class="" data-v-28854209>文章</a><a href="/archive" class="" data-v-28854209>归档</a><a href="/toolbox" class="" data-v-28854209>工具箱</a><a href="/about" class="" data-v-28854209>关于</a></nav><div class="search-container" data-v-28854209><div class="search-box" data-v-28854209><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="" width="1em" height="1em" viewBox="0 0 16 16" class="search-icon" data-v-28854209></svg><input value="" type="text" placeholder="搜索..." data-v-28854209><!----></div><!----></div><button class="mobile-menu-btn" data-v-28854209><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="" width="1em" height="1em" viewBox="0 0 16 16" data-v-28854209></svg></button></div><!----></header><div class="article-detail-page" data-v-9cb8f971><div class="container" data-v-9cb8f971><aside class="sidebar" data-v-9cb8f971><div class="author-card" data-v-9cb8f971 data-v-ff859765><div class="avatar-wrapper" data-v-ff859765><img src="https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png" alt="博主" class="avatar" loading="lazy" data-v-ff859765></div><h3 class="name" data-v-ff859765>博主</h3><p class="bio" data-v-ff859765>热爱技术，热爱分享</p><div class="social-links" data-v-ff859765><!----><!----><!----><!----></div></div><div class="site-info" data-v-9cb8f971 data-v-e1a229f8><div class="site-icon" data-v-e1a229f8><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="" width="1em" height="1em" viewBox="0 0 16 16" data-v-e1a229f8></svg></div><h3 class="site-name" data-v-e1a229f8>冰豆知识站</h3><p class="site-desc" data-v-e1a229f8>分享技术，记录成长</p><div class="stats" data-v-e1a229f8><div class="stat-item" data-v-e1a229f8><div class="stat-value" data-v-e1a229f8>0</div><div class="stat-label" data-v-e1a229f8>文章</div></div><div class="stat-item" data-v-e1a229f8><div class="stat-value" data-v-e1a229f8>0</div><div class="stat-label" data-v-e1a229f8>浏览</div></div><div class="stat-item" data-v-e1a229f8><div class="stat-value" data-v-e1a229f8>0</div><div class="stat-label" data-v-e1a229f8>点赞</div></div></div></div><div class="recommended-articles" data-v-9cb8f971 data-v-0c1c362a><div class="section-title" data-v-0c1c362a><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="" width="1em" height="1em" viewBox="0 0 16 16" data-v-0c1c362a></svg> 推荐阅读 </div><div class="empty-state" data-v-0c1c362a><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="" width="1em" height="1em" viewBox="0 0 16 16" data-v-0c1c362a></svg><p data-v-0c1c362a>暂无推荐文章</p></div></div><div class="latest-articles" data-v-9cb8f971 data-v-e632508c><div class="section-title" data-v-e632508c><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="" width="1em" height="1em" viewBox="0 0 16 16" data-v-e632508c></svg> 最新文章 </div><div class="empty-state" data-v-e632508c><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="" width="1em" height="1em" viewBox="0 0 16 16" data-v-e632508c></svg><p data-v-e632508c>暂无最新文章</p></div></div></aside><main class="main-content" data-v-9cb8f971><article class="article-content" data-v-9cb8f971 data-v-f80ebcb1><div class="reading-progress" data-v-f80ebcb1 style="display:none;" data-v-f956091d><div class="progress-bar" style="width:0%;" data-v-f956091d></div></div><h1 class="article-title" data-v-f80ebcb1>图文详解 Claude Code 从入门到精通（一）：Claude Code 的安装与启动</h1><div class="article-meta" data-v-f80ebcb1><span class="meta-item" data-v-f80ebcb1><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="" width="1em" height="1em" viewBox="0 0 16 16" data-v-f80ebcb1></svg> 2026年3月11日 16:47</span><span class="meta-item" data-v-f80ebcb1><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="" width="1em" height="1em" viewBox="0 0 16 16" data-v-f80ebcb1></svg> 阅读约 6 分钟</span><span class="meta-item" data-v-f80ebcb1><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="" width="1em" height="1em" viewBox="0 0 16 16" data-v-f80ebcb1></svg><a href="/categories/shi-yong-gong-ju-jiao-cheng" class="" data-v-f80ebcb1>实用工具教程</a></span><span class="meta-item" data-v-f80ebcb1><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="" width="1em" height="1em" viewBox="0 0 16 16" data-v-f80ebcb1></svg> 1 次浏览 </span><span class="meta-item" data-v-f80ebcb1><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="" width="1em" height="1em" viewBox="0 0 16 16" data-v-f80ebcb1></svg> 0 个赞 </span><span class="meta-item" data-v-f80ebcb1><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="" width="1em" height="1em" viewBox="0 0 16 16" data-v-f80ebcb1></svg> 0 条评论 </span></div><div class="article-tags" data-v-f80ebcb1><!--[--><a href="/tags/gong-ju" class="tag" data-v-f80ebcb1><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="" width="1em" height="1em" viewBox="0 0 16 16" data-v-f80ebcb1></svg> 工具</a><a href="/tags/ji-shu" class="tag" data-v-f80ebcb1><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="" width="1em" height="1em" viewBox="0 0 16 16" data-v-f80ebcb1></svg> 技术</a><!--]--></div><div class="article-summary" data-v-f80ebcb1><div class="summary-label" data-v-f80ebcb1>摘要</div><div class="summary-content" data-v-f80ebcb1>Claude Code是Anthropic推出的AI编程命令行工具，专为开发者提供终端内AI协作工作流。本文作为系列入门指南的第一篇，重点介绍其安装与启动流程。文章详细说明了系统要求，包括操作系统、Node.js版本和网络条件，并提供了原生安装和包管理器安装两种方法。针对国内用户，推荐使用智谱GLM Coding Plan以获得更稳定的网络体验和更高性价比，同时给出了具体的配置步骤和模型切换方法。</div></div><!----><div class="article-body" data-v-f80ebcb1><h2>前言</h2>
-<p>在 AI 辅助编程工具飞速发展的今天，Claude Code 作为 Anthropic 推出的命令行编程助手，正在被越来越多的开发者所青睐。与传统的桌面应用不同，Claude Code 直接运行在你的终端中，能够深入理解你的代码库，帮助你完成编码、调试、重构等任务。</p>
-<p>本系列文章将带你从零开始掌握 Claude Code，第一篇我们专注于安装与启动。</p>
-<h2>一、什么是 Claude Code？</h2>
-<p>Claude Code 是 Anthropic 推出的 <strong>AI 编程命令行工具</strong>（CLI）。它不同于网页版的 Claude 或桌面应用，Claude Code 设计初衷是为开发者提供一个可以在终端中直接与 AI 协作的工作流。</p>
-<p>Claude Code 的核心能力包括：</p>
+<meta name="twitter:image" content="https://cdn.icybean.cn//blog/images/2026/03/11/bdeb2293470b4f4486fab3b85d212eb8"></head><body><!--teleport start anchor--><!----><!--teleport anchor--><div id="__nuxt"><div class="app-layout" data-v-23dcca7e><header class="app-header" data-v-23dcca7e data-v-28854209><div class="container" data-v-28854209><a href="/" class="logo" data-v-28854209><span data-v-28854209>冰豆知识站</span></a><nav class="nav-menu" data-v-28854209><a href="/" class="" data-v-28854209>首页</a><a href="/blog" class="" data-v-28854209>文章</a><a href="/archive" class="" data-v-28854209>归档</a><a href="/toolbox" class="" data-v-28854209>工具箱</a><a href="/about" class="" data-v-28854209>关于</a></nav><div class="search-container" data-v-28854209><div class="search-box" data-v-28854209><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="" width="1em" height="1em" viewBox="0 0 16 16" class="search-icon" data-v-28854209></svg><input value="" type="text" placeholder="搜索..." data-v-28854209><!----></div><!----></div><button class="mobile-menu-btn" data-v-28854209><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="" width="1em" height="1em" viewBox="0 0 16 16" data-v-28854209></svg></button></div><!----></header><div class="article-detail-page" data-v-9cb8f971><div class="container" data-v-9cb8f971><aside class="sidebar" data-v-9cb8f971><div class="author-card" data-v-9cb8f971 data-v-ff859765><div class="avatar-wrapper" data-v-ff859765><img src="https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png" alt="博主" class="avatar" loading="lazy" data-v-ff859765></div><h3 class="name" data-v-ff859765>博主</h3><p class="bio" data-v-ff859765>热爱技术，热爱分享</p><div class="social-links" data-v-ff859765><!----><!----><!----><!----></div></div><div class="site-info" data-v-9cb8f971 data-v-e1a229f8><div class="site-icon" data-v-e1a229f8><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="" width="1em" height="1em" viewBox="0 0 16 16" data-v-e1a229f8></svg></div><h3 class="site-name" data-v-e1a229f8>冰豆知识站</h3><p class="site-desc" data-v-e1a229f8>分享技术，记录成长</p><div class="stats" data-v-e1a229f8><div class="stat-item" data-v-e1a229f8><div class="stat-value" data-v-e1a229f8>0</div><div class="stat-label" data-v-e1a229f8>文章</div></div><div class="stat-item" data-v-e1a229f8><div class="stat-value" data-v-e1a229f8>0</div><div class="stat-label" data-v-e1a229f8>浏览</div></div><div class="stat-item" data-v-e1a229f8><div class="stat-value" data-v-e1a229f8>0</div><div class="stat-label" data-v-e1a229f8>点赞</div></div></div></div><div class="recommended-articles" data-v-9cb8f971 data-v-0c1c362a><div class="section-title" data-v-0c1c362a><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="" width="1em" height="1em" viewBox="0 0 16 16" data-v-0c1c362a></svg> 推荐阅读 </div><div class="empty-state" data-v-0c1c362a><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="" width="1em" height="1em" viewBox="0 0 16 16" data-v-0c1c362a></svg><p data-v-0c1c362a>暂无推荐文章</p></div></div><div class="latest-articles" data-v-9cb8f971 data-v-e632508c><div class="section-title" data-v-e632508c><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="" width="1em" height="1em" viewBox="0 0 16 16" data-v-e632508c></svg> 最新文章 </div><div class="empty-state" data-v-e632508c><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="" width="1em" height="1em" viewBox="0 0 16 16" data-v-e632508c></svg><p data-v-e632508c>暂无最新文章</p></div></div></aside><main class="main-content" data-v-9cb8f971><article class="article-content" data-v-9cb8f971 data-v-f80ebcb1><div class="reading-progress" data-v-f80ebcb1 style="display:none;" data-v-f956091d><div class="progress-bar" style="width:0%;" data-v-f956091d></div></div><h1 class="article-title" data-v-f80ebcb1>图文详解 Claude Code 从入门到精通（一）：Claude Code 的安装与启动</h1><div class="article-meta" data-v-f80ebcb1><span class="meta-item" data-v-f80ebcb1><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="" width="1em" height="1em" viewBox="0 0 16 16" data-v-f80ebcb1></svg> 2026年3月11日 16:47</span><span class="meta-item" data-v-f80ebcb1><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="" width="1em" height="1em" viewBox="0 0 16 16" data-v-f80ebcb1></svg> 阅读约 4 分钟</span><span class="meta-item" data-v-f80ebcb1><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="" width="1em" height="1em" viewBox="0 0 16 16" data-v-f80ebcb1></svg><a href="/categories/shi-yong-gong-ju-jiao-cheng" class="" data-v-f80ebcb1>实用工具教程</a></span><span class="meta-item" data-v-f80ebcb1><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="" width="1em" height="1em" viewBox="0 0 16 16" data-v-f80ebcb1></svg> 2 次浏览 </span><span class="meta-item" data-v-f80ebcb1><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="" width="1em" height="1em" viewBox="0 0 16 16" data-v-f80ebcb1></svg> 0 个赞 </span><span class="meta-item" data-v-f80ebcb1><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="" width="1em" height="1em" viewBox="0 0 16 16" data-v-f80ebcb1></svg> 0 条评论 </span></div><div class="article-tags" data-v-f80ebcb1><!--[--><a href="/tags/gong-ju" class="tag" data-v-f80ebcb1><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="" width="1em" height="1em" viewBox="0 0 16 16" data-v-f80ebcb1></svg> 工具</a><a href="/tags/ji-shu" class="tag" data-v-f80ebcb1><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="" width="1em" height="1em" viewBox="0 0 16 16" data-v-f80ebcb1></svg> 技术</a><!--]--></div><div class="article-summary" data-v-f80ebcb1><div class="summary-label" data-v-f80ebcb1>摘要</div><div class="summary-content" data-v-f80ebcb1>Claude Code是Anthropic推出的AI编程命令行工具，专为开发者提供终端内AI协作工作流。本文作为系列入门指南的第一篇，重点介绍其安装与启动流程。文章详细说明了系统要求，包括操作系统、Node.js版本和网络条件，并提供了原生安装和包管理器安装两种方法。针对国内用户，推荐使用智谱GLM Coding Plan以获得更稳定的网络体验和更高性价比，同时给出了具体的配置步骤和模型切换方法。</div></div><!----><div class="article-body" data-v-f80ebcb1><h2>前言</h2>
+<p>Claude Code 是 Anthropic 推出的 <strong>AI 编程命令行工具</strong>（CLI），能够直接在终端中与你的代码交互，帮助你完成编码、调试、重构等任务。</p>
+<p>本篇文章面向 <strong>Windows 用户</strong>，详细介绍安装与配置过程，并推荐接入智谱 GLM Coding Plan 以获得更稳定的网络体验和更高的性价比。</p>
+<h2>一、准备工作</h2>
+<p>在安装 Claude Code 之前，需要先完成以下准备：</p>
+<h3>1. 安装 Node.js</h3>
+<p>访问 <a href="https://nodejs.org/">Node.js 官网</a>，下载并安装 <strong>LTS 版本</strong>（18.x 或更高）。</p>
+<p>验证安装：</p>
+<pre><code class="language-powershell">node --version
+</code></pre>
+<h3>2. 安装 Git for Windows</h3>
+<p>Claude Code 在 Windows 上需要 Git 环境。访问 <a href="https://git-scm.com/">Git 官网</a> 下载安装包，安装时选择「Use Git from Git Bash only」或「Git from the command line and also from third-party software」。<br />
+验证安装：</p>
+<pre><code class="language-powershell">git --v
+</code></pre>
+<h3>3. 获取任意平台的Coding Plan API key</h3>
+<p>如果你在国内使用，推荐注册 <a href="https://www.bigmodel.cn/glm-coding?ic=SSSO8OVJEW">智谱开放平台</a> 账号，并订阅 <strong>GLM Coding Plan</strong> 套餐：</p>
 <ul>
-<li><strong>代码理解与分析</strong>：深入分析你的代码库，提供上下文相关的建议</li>
-<li><strong>自动化编码</strong>：直接帮你创建、修改代码文件</li>
-<li><strong>Git 集成</strong>：对话式完成 Git 操作</li>
-<li><strong>MCP 扩展</strong>：支持外部服务集成，扩展能力</li>
-<li><strong>终端工具</strong>：直接在终端中运行命令、运行测试</li>
+<li>价格实惠：Pro 版每月约 100 元</li>
+<li>网络稳定：国内直连，无需代理</li>
+<li>3 倍用量：搭配套餐可获得 3 倍用量</li>
 </ul>
-<h2>二、系统要求</h2>
-<p>在安装之前，先确认你的环境满足以下要求：</p>
-<table>
-<thead>
-<tr><th>要求</th><th>规格</th></tr>
-</thead>
-<tbody>
-<tr><td>操作系统</td><td>macOS 13.0+ / Windows 10 1809+ / Ubuntu 20.04+ / Debian 10+</td></tr>
-<tr><td>Node.js</td><td>安装 Node.js 18 或更新版本环境</td></tr>
-<tr><td>网络</td><td>需要稳定互联网连接</td></tr>
-<tr><td>Shell</td><td>Bash 或 Zsh（效果最佳）</td></tr>
-</tbody>
-</table>
-<p><strong>Windows 用户注意</strong>：需要先安装 <a href="https://git-scm.com/">Git for Windows</a>。</p>
-<h2>三、安装步骤</h2>
-<p>Claude Code 提供多种安装方式，推荐使用官方原生安装器。</p>
-<h3>方法一：原生安装（推荐）</h3>
-<p><strong>macOS / Linux / WSL：</strong></p>
-<pre><code class="language-bash">curl -fsSL https://claude.ai/install.sh | bash
-</code></pre>
-<p><strong>Windows CMD：</strong></p>
-<pre><code class="language-cmd">curl -fsSL https://claude.ai/install.cmd -o install.cmd &amp;&amp; install.cmd &amp;&amp; del install.cmd
-</code></pre>
-<h3>方法二：包管理器安装</h3>
-<p><strong>macOS（Homebrew）：</strong></p>
-<pre><code class="language-bash">brew install --cask claude-code
-</code></pre>
-<p><strong>Windows（npm）：</strong></p>
+<h2>二、安装 Claude Code</h2>
+<h3>方法一：npm 安装（推荐）</h3>
+<p>打开 <strong>PowerShell</strong> 或 <strong>CMD</strong>，执行：</p>
 <pre><code class="language-powershell">npm install -g @anthropic-ai/claude-code
 </code></pre>
+<h3>方法二：官方安装脚本</h3>
+<p><strong>PowerShell：</strong></p>
+<pre><code class="language-powershell">irm https://claude.ai/install.ps1 | iex
+</code></pre>
+<p><strong>CMD：</strong></p>
+<pre><code class="language-cmd">curl -fsSL https://claude.ai/install.cmd -o install.cmd &amp;&amp; install.cmd &amp;&amp; del install.cmd
+</code></pre>
 <h3>验证安装</h3>
-<p>安装完成后，验证是否成功：</p>
-<pre><code class="language-bash">claude --version
+<pre><code class="language-powershell">claude --version
 </code></pre>
 <p>如果输出版本号，说明安装成功。</p>
-<h2>四、配置 Claude Code</h2>
-<blockquote>
-<p>如果你使用的是官方 Claude 订阅，首次使用 <code>claude</code> 命令时会引导你在浏览器中完成登录。登录凭证会被缓存，后续无需重复登录。如需切换账户，可使用 <code>/login</code> 命令。</p>
-</blockquote>
-<p>如果你在国内使用，推荐接入<strong>智谱 GLM Coding Plan</strong>套餐，可以获得更稳定的网络体验和更高的性价比。</p>
+<h2>三、配置智谱 GLM Coding Plan</h2>
 <h3>为什么选择 GLM Coding Plan？</h3>
 <ul>
-<li><strong>价格实惠</strong>：相比官方 Claude API，GLM Coding Plan 价格更低，Pro 版每月仅需约 100 元</li>
-<li><strong>网络稳定</strong>：国内直连，无需代理</li>
-<li><strong>3 倍用量</strong>：搭配 GLM Coding Plan 可获得 3 倍用量</li>
+<li><strong>价格实惠</strong>：相比官方 Claude API，GLM Coding Plan 价格更低，Pro 版每月约 100 元</li>
+<li><strong>网络稳定</strong>：国内直连，无需代理，告别频繁超时</li>
+<li><strong>3 倍用量</strong>：搭配套餐可获得 3 倍用量</li>
 <li><strong>模型对标</strong>：
 <ul>
-<li>GLM-4.5-Air 对标 Claude Haiku</li>
-<li>GLM-4.7 对标 Claude Sonnet/Opus</li>
+<li>GLM-4.5-Air 对标 Claude Haiku（轻量快速）</li>
+<li>GLM-4.7 对标 Claude Sonnet/Opus（平衡选择）</li>
 <li>GLM-5 对标 Claude Opus（复杂任务推荐）</li>
 </ul>
 </li>
 </ul>
-<h3>配置步骤（以智谱 GLM 为例）</h3>
-<h4>步骤 1：注册并获取 API Key</h4>
+<h3>步骤 1：获取 API Key</h3>
 <ol>
-<li>
-<p>访问 <a href="https://www.bigmodel.cn/glm-coding?ic=SSSO8OVJEW">智谱开放平台</a>，注册账号并登录</p>
-</li>
-<li>
-<p>在导航栏找到「API Keys」，创建一个新的 API Key<br />
-<img src="https://cdn.icybean.cn//blog/images/2026/03/11/04a199ee30b548209f5687acc039741e" alt="" /></p>
-</li>
-<li>
-<p>务必妥善保存你的 API Key</p>
-</li>
+<li>登录 <a href="https://www.bigmodel.cn/glm-coding?ic=SSSO8OVJEW">智谱开放平台</a></li>
+<li>点击左侧菜单「API Keys」，创建新的 API Key</li>
+<li>妥善保存你的 API Key</li>
 </ol>
 <blockquote>
 <p>注意：首次使用需要先订阅 GLM Coding Plan 套餐</p>
 </blockquote>
-<h4>步骤 2：配置环境变量</h4>
-<p>配置 Claude Code 使用智谱 GLM 模型，有以下三种方式：</p>
-<p><strong>方式一：Coding Tool Helper（推荐）</strong></p>
-<p>这是智谱官方提供的自动化助手，一条命令完成所有配置：</p>
-<pre><code class="language-bash">npx @z_ai/coding-helper
+<h3>步骤 2：配置环境变量</h3>
+<h4>方式一：Coding Tool Helper（推荐）</h4>
+<p>智谱官方提供的自动化助手，一条命令完成所有配置：</p>
+<pre><code class="language-powershell">npx @z_ai/coding-helper
 </code></pre>
-<p>运行后按照界面提示操作，即可自动完成安装、套餐配置和 MCP 服务器管理。</p>
-<p><strong>方式二：自动化脚本（仅 MacOS/Linux）</strong></p>
-<pre><code class="language-bash">curl -O &quot;https://cdn.bigmodel.cn/install/claude_code_env.sh&quot; &amp;&amp; bash ./claude_code_env.sh
-</code></pre>
-<p>脚本会自动配置 <code>~/.claude/settings.json</code> 文件。</p>
-<p><strong>方式三：手动配置（支持 MacOS/Linux/Windows）</strong></p>
-<p><strong>对于 MacOS/Linux：</strong></p>
-<pre><code class="language-bash"># 编辑配置文件
-nano ~/.claude/settings.json
-</code></pre>
-<p>添加或修改以下内容（将 <code>your_zhipu_api_key</code> 替换为你的 API Key）：</p>
+<p>运行后按照界面提示操作即可。</p>
+<h4>方式二：手动配置</h4>
+<ol>
+<li>创建配置文件：</li>
+</ol>
+<p>进入 C:\Users%你的用户名% 目录下，找到.claude目录，这是Claude Code的主文件夹，打开settings.json（没有就新建）</p>
+<ol start="2">
+<li>添加以下内容（将 <code>your_api_key</code> 替换为你的智谱 API Key）：</li>
+</ol>
 <pre><code class="language-json">{
   &quot;env&quot;: {
-    &quot;ANTHROPIC_AUTH_TOKEN&quot;: &quot;your_zhipu_api_key&quot;,
+    &quot;ANTHROPIC_AUTH_TOKEN&quot;: &quot;your_api_key&quot;,
     &quot;ANTHROPIC_BASE_URL&quot;: &quot;https://open.bigmodel.cn/api/anthropic&quot;,
     &quot;API_TIMEOUT_MS&quot;: &quot;3000000&quot;,
     &quot;CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC&quot;: 1
   }
 }
 </code></pre>
-<p>同时编辑 <code>~/.claude.json</code> 文件：</p>
-<pre><code class="language-bash">nano ~/.claude.json
-</code></pre>
-<p>添加：</p>
+<ol start="3">
+<li>返回上一级目录（用户名目录），打开.claude.json文件（没有就新建）</li>
+</ol>
+<p>添加一条配置，以跳过登录流程：</p>
 <pre><code class="language-json">{
   &quot;hasCompletedOnboarding&quot;: true
 }
 </code></pre>
-<p><strong>对于 Windows：</strong></p>
-<pre><code class="language-powershell"># 编辑配置文件
-notepad %USERPROFILE%\.claude\settings.json
-</code></pre>
-<p>添加同样的内容（注意路径为 <code>%USERPROFILE%\.claude\settings.json</code>）。%USERPROFILE% 是你的用户目录，一般在C盘下。</p>
-<h4>步骤 3：验证配置</h4>
-<p>重新打开一个终端窗口，运行：</p>
-<pre><code class="language-bash">claude --version
-</code></pre>
-<p>如果显示版本号，说明安装成功。启动 Claude Code：</p>
-<pre><code class="language-bash">claude
+<h3>步骤 3：验证配置</h3>
+<p>重新打开一个 PowerShell 窗口，启动 Claude Code：</p>
+<pre><code class="language-powershell">claude
 </code></pre>
 <p>首次启动时，若提示「Do you want to use this API key」，输入 <code>Yes</code> 确认。</p>
-<h3>切换不同模型</h3>
-<p>配置完成后，默认的模型映射关系如下：</p>
-<table>
-<thead>
-<tr><th>Claude 模型</th><th>GLM 模型</th></tr>
-</thead>
-<tbody>
-<tr><td>Opus</td><td>GLM-4.7</td></tr>
-<tr><td>Sonnet</td><td>GLM-4.7</td></tr>
-<tr><td>Haiku</td><td>GLM-4.5-Air</td></tr>
-</tbody>
-</table>
-<p>如需使用 GLM-5（对标 Opus，适合复杂任务），编辑 <code>~/.claude/settings.json</code>：</p>
-<pre><code class="language-json">{
-  &quot;env&quot;: {
-    &quot;ANTHROPIC_DEFAULT_HAIKU_MODEL&quot;: &quot;glm-4.5-air&quot;,
-    &quot;ANTHROPIC_DEFAULT_SONNET_MODEL&quot;: &quot;glm-4.7&quot;,
-    &quot;ANTHROPIC_DEFAULT_OPUS_MODEL&quot;: &quot;glm-5&quot;
-  }
-}
-</code></pre>
-<blockquote>
-<p>注：GLM-5 在高峰期（每日 14:00-18:00）按 3 倍用量计算，非高峰期按 2 倍计算。建议复杂任务使用 GLM-5，普通任务使用 GLM-4.7 以节省用量。</p>
-</blockquote>
-<h3>配置不生效？试试这样排查</h3>
-<ol>
-<li>关闭所有 Claude Code 窗口，重新打开新的终端再运行 <code>claude</code></li>
-<li>检查 <code>~/.claude/settings.json</code> 的 JSON 格式是否正确（可使用在线 JSON 校验工具）</li>
-<li>删除配置文件后重新配置</li>
-</ol>
-<hr />
-<h2>五、首次启动与基本操作</h2>
-<h3>启动 Claude Code</h3>
-<p>进入任意项目目录，启动 Claude Code：</p>
-<pre><code class="language-bash">cd your-project
-claude
-</code></pre>
-<p>你将看到欢迎屏幕，显示会话信息、最近对话和更新提示。</p>
-<h3>基本命令一览</h3>
+<h2>四、基本命令</h2>
 <table>
 <thead>
 <tr><th>命令</th><th>功能</th></tr>
@@ -238,55 +167,33 @@ claude
 <tr><td><code>claude &quot;task&quot;</code></td><td>运行一次性任务</td></tr>
 <tr><td><code>claude -p &quot;query&quot;</code></td><td>运行查询后立即退出</td></tr>
 <tr><td><code>claude -c</code></td><td>继续当前目录的最近对话</td></tr>
-<tr><td><code>claude -r</code></td><td>恢复之前的对话</td></tr>
 <tr><td><code>/help</code></td><td>显示可用命令</td></tr>
 <tr><td><code>/clear</code></td><td>清除对话历史</td></tr>
-<tr><td><code>exit</code> 或 Ctrl+C</td><td>退出</td></tr>
+<tr><td><code>exit</code></td><td>退出</td></tr>
 </tbody>
 </table>
-<h3>首次对话示例</h3>
-<p>启动后，你可以尝试以下问题：</p>
-<pre><code>帮我分析这个项目的结构
-</code></pre>
-<p>Claude Code 会扫描你的代码库并提供摘要。你也可以问：</p>
-<pre><code>我如何在 Claude Code 中创建自定义 skills？
-</code></pre>
-<h2>六、配置与自定义</h2>
-<h3>自动更新设置</h3>
-<p>Claude Code 默认自动更新。如需配置更新渠道，使用 <code>/config</code> 命令或编辑 <code>~/.claude/settings.json</code>：</p>
+<h2>五、常见问题</h2>
+<p><strong>Q：安装后运行 <code>claude</code> 无反应？</strong><br />
+A：确保已安装 Git for Windows，并重新打开终端再试。</p>
+<p><strong>Q：配置智谱后无法使用？</strong><br />
+A：检查 API Key 是否正确，配置文件路径是否为 <code>C:\Users\你的用户名\.claude\settings.json</code>。</p>
+<p><strong>Q：如何切换到 GLM-5 模型？</strong><br />
+A：编辑 <code>settings.json</code>，添加：</p>
 <pre><code class="language-json">{
-  &quot;autoUpdatesChannel&quot;: &quot;stable&quot;
+  &quot;env&quot;: {
+    &quot;ANTHROPIC_DEFAULT_OPUS_MODEL&quot;: &quot;glm-5&quot;
+  }
 }
 </code></pre>
-<ul>
-<li><code>latest</code>：默认获取最新功能</li>
-<li><code>stable</code>：约一周前的稳定版本</li>
-</ul>
-<h3>禁用自动更新</h3>
-<p>如需手动控制更新，可在 shell 配置中添加：</p>
-<pre><code class="language-bash">export DISABLE_AUTOUPDATER=1
-</code></pre>
-<h3>Windows 特殊配置</h3>
-<p>在 Windows 上使用 Git Bash 本地运行，需指定 bash 路径：</p>
-<pre><code class="language-powershell">$env:CLAUDE_CODE_GIT_BASH_PATH=&quot;C:\Program Files\Git\bin\bash.exe&quot;
-</code></pre>
-<h2>七、常见问题</h2>
-<p><strong>Q：Claude Code 是否免费？</strong><br />
-A：Claude Code 需要付费订阅（Pro、Max、Teams 或 Enterprise）。新用户通常有免费试用额度。</p>
-<p><strong>Q：安装时遇到网络问题怎么办？</strong><br />
-A：确保网络可以访问 Anthropic 服务。对于企业网络，可能需要配置代理。</p>
-<p><strong>Q：如何卸载 Claude Code？</strong><br />
-A：本地安装执行 <code>rm -f ~/.local/bin/claude &amp;&amp; rm -rf ~/.local/share/claude</code>；Windows 使用控制面板或 WinGet 卸载。</p>
-<p><strong>Q：支持中文对话吗？</strong><br />
-A：支持，Claude Code 可以用中文进行对话。</p>
-<h2>八、结语</h2>
-<p>至此，你已经成功安装并启动了 Claude Code。下一篇文章我们将深入探讨如何利用 Claude Code 进行高效的代码开发，包括文件操作、Git 集成、任务执行等实用技巧。</p>
+<blockquote>
+<p>注：GLM-5 在高峰期（每日 14:00-18:00）按 3 倍用量计算。</p>
+</blockquote>
 <hr />
 <p><strong>相关文档</strong>：</p>
 <ul>
+<li><a href="https://docs.bigmodel.cn/cn/guide/develop/claude">智谱 Claude Code 配置文档</a></li>
 <li><a href="https://code.claude.com/docs/zh-CN/quickstart">Claude Code 官方文档</a></li>
-<li><a href="https://code.claude.com/docs/zh-CN/setup">设置 Claude Code</a></li>
 </ul>
 <p><strong>下一篇预告</strong>：《图文详解 Claude Code 从入门到精通（二）：高效开发实战技巧》</p>
-</div><div class="interaction-bar" data-v-f80ebcb1 data-v-d5e38408><div class="interaction-hint" data-v-d5e38408> 觉得文章有帮助？点个赞或在评论区分享你的看法 </div><div class="interaction-buttons" data-v-d5e38408><button class="interaction-btn like-btn" data-v-d5e38408><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="" width="1em" height="1em" viewBox="0 0 16 16" data-v-d5e38408></svg><span class="btn-text" data-v-d5e38408>点赞</span><!----></button><button class="interaction-btn comment-btn" data-v-d5e38408><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="" width="1em" height="1em" viewBox="0 0 16 16" data-v-d5e38408></svg><span class="btn-text" data-v-d5e38408>评论</span><!----></button></div></div><!--teleport start--><!--teleport end--><div class="comment-section" data-v-f80ebcb1 data-v-aa9a81b9><div class="section-title" data-v-aa9a81b9><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="" width="1em" height="1em" viewBox="0 0 16 16" data-v-aa9a81b9></svg> 文章评论 <!----></div><!--[--><div class="comment-list" data-v-aa9a81b9 data-v-7efb2823><div class="empty-state" data-v-7efb2823><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="" width="1em" height="1em" viewBox="0 0 16 16" data-v-7efb2823></svg><h3 data-v-7efb2823>暂无评论</h3><p data-v-7efb2823>快来发表第一条评论吧！</p></div></div><!----><!--]--></div></article></main></div></div><footer class="app-footer" data-v-23dcca7e data-v-8727d295><div class="container" data-v-8727d295><div class="footer-content" data-v-8727d295><p data-v-8727d295>© 2026 我的技术博客. All rights reserved.</p><p class="beian" data-v-8727d295><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener" data-v-8727d295> ICP备案号： 粤ICP备2025381923号-2</a></p><p class="beian psg" data-v-8727d295><a href="http://www.beian.gov.cn/portal/registerSystemInfo?apikey=备案中" target="_blank" rel="noopener" data-v-8727d295><img src="/images/psg-icon.png" alt="公安备案号" class="psg-icon" data-v-8727d295><span data-v-8727d295>公安备案号：备案中</span></a></p></div></div></footer><button class="back-to-top" title="已在顶部" data-v-23dcca7e style="display:none;" data-v-fa6461d8><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="" width="1em" height="1em" viewBox="0 0 16 16" data-v-fa6461d8></svg></button></div></div><div id="teleports"></div><script>window.__NUXT__={};window.__NUXT__.config={public:{apiBase:"https://blog.icybean.cn",siteUrl:"https://www.icybean.cn"},app:{baseURL:"/",buildId:"06220d84-46ad-40a8-ac6b-9e90d2584ac5",buildAssetsDir:"/_nuxt/",cdnURL:""}}</script>
-<script type="application/json" data-nuxt-data="nuxt-app" data-ssr="true" id="__NUXT_DATA__" data-src="/blog/claude-code-installation-startup/_payload.json?06220d84-46ad-40a8-ac6b-9e90d2584ac5">[{"state":1,"once":11,"_errors":12,"serverRendered":15,"path":16,"pinia":17,"prerenderedAt":27},["Reactive",2],{"$ssite-config":3},{"_priority":4,"env":8,"name":9,"url":10},{"name":5,"env":6,"url":7},-10,-15,-3,"production","blog-frontend","https://www.icybean.cn",["Set"],["ShallowReactive",13],{"article-claude-code-installation-startup":14,"footer-config":14},null,true,"/blog/claude-code-installation-startup",["Reactive",18],{"site":19},{"config":14,"categories":20,"tags":21,"stats":22,"loading":24,"lastUpdated":26},[],[],{"articleCount":23,"categoryCount":23,"tagCount":23,"viewCount":23,"likeCount":23,"runningDays":23},0,{"config":25,"categories":25,"tags":25,"stats":25},false,{"config":23,"categories":23,"tags":23,"stats":23},1773254353634]</script></body></html>
+</div><div class="interaction-bar" data-v-f80ebcb1 data-v-d5e38408><div class="interaction-hint" data-v-d5e38408> 觉得文章有帮助？点个赞或在评论区分享你的看法 </div><div class="interaction-buttons" data-v-d5e38408><button class="interaction-btn like-btn" data-v-d5e38408><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="" width="1em" height="1em" viewBox="0 0 16 16" data-v-d5e38408></svg><span class="btn-text" data-v-d5e38408>点赞</span><!----></button><button class="interaction-btn comment-btn" data-v-d5e38408><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="" width="1em" height="1em" viewBox="0 0 16 16" data-v-d5e38408></svg><span class="btn-text" data-v-d5e38408>评论</span><!----></button></div></div><!--teleport start--><!--teleport end--><div class="comment-section" data-v-f80ebcb1 data-v-aa9a81b9><div class="section-title" data-v-aa9a81b9><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="" width="1em" height="1em" viewBox="0 0 16 16" data-v-aa9a81b9></svg> 文章评论 <!----></div><!--[--><div class="comment-list" data-v-aa9a81b9 data-v-7efb2823><div class="empty-state" data-v-7efb2823><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="" width="1em" height="1em" viewBox="0 0 16 16" data-v-7efb2823></svg><h3 data-v-7efb2823>暂无评论</h3><p data-v-7efb2823>快来发表第一条评论吧！</p></div></div><!----><!--]--></div></article></main></div></div><footer class="app-footer" data-v-23dcca7e data-v-8727d295><div class="container" data-v-8727d295><div class="footer-content" data-v-8727d295><p data-v-8727d295>© 2026 我的技术博客. All rights reserved.</p><p class="beian" data-v-8727d295><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener" data-v-8727d295> ICP备案号： 粤ICP备2025381923号-2</a></p><p class="beian psg" data-v-8727d295><a href="http://www.beian.gov.cn/portal/registerSystemInfo?apikey=备案中" target="_blank" rel="noopener" data-v-8727d295><img src="/images/psg-icon.png" alt="公安备案号" class="psg-icon" data-v-8727d295><span data-v-8727d295>公安备案号：备案中</span></a></p></div></div></footer><button class="back-to-top" title="已在顶部" data-v-23dcca7e style="display:none;" data-v-fa6461d8><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="" width="1em" height="1em" viewBox="0 0 16 16" data-v-fa6461d8></svg></button></div></div><div id="teleports"></div><script>window.__NUXT__={};window.__NUXT__.config={public:{apiBase:"https://blog.icybean.cn",siteUrl:"https://www.icybean.cn"},app:{baseURL:"/",buildId:"feeb2f6d-8f6e-4dd4-9ef8-650f8d00fc61",buildAssetsDir:"/_nuxt/",cdnURL:""}}</script>
+<script type="application/json" data-nuxt-data="nuxt-app" data-ssr="true" id="__NUXT_DATA__" data-src="/blog/claude-code-installation-startup/_payload.json?feeb2f6d-8f6e-4dd4-9ef8-650f8d00fc61">[{"state":1,"once":11,"_errors":12,"serverRendered":15,"path":16,"pinia":17,"prerenderedAt":27},["Reactive",2],{"$ssite-config":3},{"_priority":4,"env":8,"name":9,"url":10},{"name":5,"env":6,"url":7},-10,-15,-3,"production","blog-frontend","https://www.icybean.cn",["Set"],["ShallowReactive",13],{"article-claude-code-installation-startup":14,"footer-config":14},null,true,"/blog/claude-code-installation-startup",["Reactive",18],{"site":19},{"config":14,"categories":20,"tags":21,"stats":22,"loading":24,"lastUpdated":26},[],[],{"articleCount":23,"categoryCount":23,"tagCount":23,"viewCount":23,"likeCount":23,"runningDays":23},0,{"config":25,"categories":25,"tags":25,"stats":25},false,{"config":23,"categories":23,"tags":23,"stats":23},1773290952664]</script></body></html>
