@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/__sitemap__/style.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://www.icybean.cn/</loc>
+        <loc>https://icybean.cn/</loc>
         <image:image>
-            <image:loc>https://www.icybean.cn/images/psg-icon.png</image:loc>
+            <image:loc>https://icybean.cn/images/psg-icon.png</image:loc>
         </image:image>
     </url>
     <url>
-        <loc>https://www.icybean.cn/about</loc>
+        <loc>https://icybean.cn/about</loc>
         <image:image>
-            <image:loc>https://www.icybean.cn/images/psg-icon.png</image:loc>
+            <image:loc>https://icybean.cn/images/psg-icon.png</image:loc>
         </image:image>
     </url>
     <url>
-        <loc>https://www.icybean.cn/archive</loc>
+        <loc>https://icybean.cn/archive</loc>
         <image:image>
-            <image:loc>https://www.icybean.cn/images/psg-icon.png</image:loc>
+            <image:loc>https://icybean.cn/images/psg-icon.png</image:loc>
         </image:image>
     </url>
     <url>
-        <loc>https://www.icybean.cn/blog</loc>
+        <loc>https://icybean.cn/blog</loc>
         <image:image>
             <image:loc>https://cdn.icybean.cn//blog/images/2026/03/11/bdeb2293470b4f4486fab3b85d212eb8</image:loc>
         </image:image>
@@ -36,17 +36,17 @@
             <image:loc>https://cdn.icybean.cn//blog/images/2026/03/02/39c752e664744ab79a8c760e459325c5.png</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://www.icybean.cn/images/psg-icon.png</image:loc>
+            <image:loc>https://icybean.cn/images/psg-icon.png</image:loc>
         </image:image>
     </url>
     <url>
-        <loc>https://www.icybean.cn/toolbox</loc>
+        <loc>https://icybean.cn/toolbox</loc>
         <image:image>
-            <image:loc>https://www.icybean.cn/images/psg-icon.png</image:loc>
+            <image:loc>https://icybean.cn/images/psg-icon.png</image:loc>
         </image:image>
     </url>
     <url>
-        <loc>https://www.icybean.cn/blog/claude-code-installation-startup</loc>
+        <loc>https://icybean.cn/blog/claude-code-installation-startup</loc>
         <image:image>
             <image:loc>https://cdn.icybean.cn//blog/images/2026/03/12/63f44b8da86f42caa39c846d251c1b2b.png</image:loc>
         </image:image>
@@ -58,7 +58,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.icybean.cn/blog/flclash-tutorial</loc>
+        <loc>https://icybean.cn/blog/flclash-tutorial</loc>
         <image:image>
             <image:loc>https://cdn.icybean.cn//blog/images/2026/03/07/c02f14637c34405ca08009e3d7f073c4.png</image:loc>
         </image:image>
@@ -94,16 +94,16 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.icybean.cn/blog/github-top-projects-weekly-2026-mar-week1</loc>
+        <loc>https://icybean.cn/blog/github-top-projects-weekly-2026-mar-week1</loc>
     </url>
     <url>
-        <loc>https://www.icybean.cn/blog/github-top-projects-weekly-2026-mar-week2</loc>
+        <loc>https://icybean.cn/blog/github-top-projects-weekly-2026-mar-week2</loc>
     </url>
     <url>
-        <loc>https://www.icybean.cn/blog/hello-world</loc>
+        <loc>https://icybean.cn/blog/hello-world</loc>
     </url>
     <url>
-        <loc>https://www.icybean.cn/categories/github-re-dian-zhou-bao</loc>
+        <loc>https://icybean.cn/categories/github-re-dian-zhou-bao</loc>
         <image:image>
             <image:loc>https://cdn.icybean.cn//blog/images/2026/03/10/378d45b4d6ee4de3bd7f13baea2700f8</image:loc>
         </image:image>
@@ -111,11 +111,11 @@
             <image:loc>https://cdn.icybean.cn//blog/images/2026/03/03/7158dfd3b50446d984f72d25cd5881bc.png</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://www.icybean.cn/images/psg-icon.png</image:loc>
+            <image:loc>https://icybean.cn/images/psg-icon.png</image:loc>
         </image:image>
     </url>
     <url>
-        <loc>https://www.icybean.cn/categories/shi-yong-gong-ju-jiao-cheng</loc>
+        <loc>https://icybean.cn/categories/shi-yong-gong-ju-jiao-cheng</loc>
         <image:image>
             <image:loc>https://cdn.icybean.cn//blog/images/2026/03/11/bdeb2293470b4f4486fab3b85d212eb8</image:loc>
         </image:image>
@@ -123,11 +123,11 @@
             <image:loc>https://cdn.icybean.cn//blog/images/2026/03/08/829cb16dc4484cceab7b7bf73fb77177.png</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://www.icybean.cn/images/psg-icon.png</image:loc>
+            <image:loc>https://icybean.cn/images/psg-icon.png</image:loc>
         </image:image>
     </url>
     <url>
-        <loc>https://www.icybean.cn/tags/github</loc>
+        <loc>https://icybean.cn/tags/github</loc>
         <image:image>
             <image:loc>https://cdn.icybean.cn//blog/images/2026/03/10/378d45b4d6ee4de3bd7f13baea2700f8</image:loc>
         </image:image>
@@ -135,11 +135,11 @@
             <image:loc>https://cdn.icybean.cn//blog/images/2026/03/03/7158dfd3b50446d984f72d25cd5881bc.png</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://www.icybean.cn/images/psg-icon.png</image:loc>
+            <image:loc>https://icybean.cn/images/psg-icon.png</image:loc>
         </image:image>
     </url>
     <url>
-        <loc>https://www.icybean.cn/tags/gong-ju</loc>
+        <loc>https://icybean.cn/tags/gong-ju</loc>
         <image:image>
             <image:loc>https://cdn.icybean.cn//blog/images/2026/03/11/bdeb2293470b4f4486fab3b85d212eb8</image:loc>
         </image:image>
@@ -147,11 +147,11 @@
             <image:loc>https://cdn.icybean.cn//blog/images/2026/03/08/829cb16dc4484cceab7b7bf73fb77177.png</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://www.icybean.cn/images/psg-icon.png</image:loc>
+            <image:loc>https://icybean.cn/images/psg-icon.png</image:loc>
         </image:image>
     </url>
     <url>
-        <loc>https://www.icybean.cn/tags/ji-shu</loc>
+        <loc>https://icybean.cn/tags/ji-shu</loc>
         <image:image>
             <image:loc>https://cdn.icybean.cn//blog/images/2026/03/11/bdeb2293470b4f4486fab3b85d212eb8</image:loc>
         </image:image>
@@ -159,11 +159,11 @@
             <image:loc>https://cdn.icybean.cn//blog/images/2026/03/08/829cb16dc4484cceab7b7bf73fb77177.png</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://www.icybean.cn/images/psg-icon.png</image:loc>
+            <image:loc>https://icybean.cn/images/psg-icon.png</image:loc>
         </image:image>
     </url>
     <url>
-        <loc>https://www.icybean.cn/tags/zhou-bao</loc>
+        <loc>https://icybean.cn/tags/zhou-bao</loc>
         <image:image>
             <image:loc>https://cdn.icybean.cn//blog/images/2026/03/10/378d45b4d6ee4de3bd7f13baea2700f8</image:loc>
         </image:image>
@@ -171,8 +171,8 @@
             <image:loc>https://cdn.icybean.cn//blog/images/2026/03/03/7158dfd3b50446d984f72d25cd5881bc.png</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://www.icybean.cn/images/psg-icon.png</image:loc>
+            <image:loc>https://icybean.cn/images/psg-icon.png</image:loc>
         </image:image>
     </url>
 </urlset>
-<!-- XML Sitemap generated by @nuxtjs/sitemap v7.6.0 at 2026-03-15T01:45:19.958Z -->
+<!-- XML Sitemap generated by @nuxtjs/sitemap v7.6.0 at 2026-03-15T01:47:13.421Z -->
