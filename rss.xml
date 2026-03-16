@@ -5,17 +5,8 @@
     <link>https://icybean.cn</link>
     <description>专注前后端开发技术分享，深入浅出讲解 Vue、Nuxt、Spring Boot 等技术栈</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 15 Mar 2026 02:26:10 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 16 Mar 2026 05:38:22 GMT</lastBuildDate>
     <atom:link href="https://icybean.cn/rss.xml" rel="self" type="application/rss+xml"/>
-
-    <item>
-      <title>图文详解 Claude Code 从入门到精通（一）：Claude Code 的安装与启动</title>
-      <link>https://icybean.cn/blog/claude-code-installation-startup</link>
-      <description>Claude Code是Anthropic推出的AI编程命令行工具，专为开发者提供终端内AI协作工作流。本文作为系列入门指南的第一篇，重点介绍其安装与启动流程。文章详细说明了系统要求，包括操作系统、Node.js版本和网络条件，并提供了原生安装和包管理器安装两种方法。针对国内用户，推荐使用智谱GLM Coding Plan以获得更稳定的网络体验和更高性价比，同时给出了具体的配置步骤和模型切换方法。</description>
-      <pubDate>Wed, 11 Mar 2026 16:47:25 GMT</pubDate>
-      <category></category>
-      <guid isPermaLink="true">https://icybean.cn/blog/claude-code-installation-startup</guid>
-    </item>
 
     <item>
       <title>保姆级教程：手把手教你如何使用FlClash科学上网</title>
@@ -27,12 +18,21 @@
     </item>
 
     <item>
-      <title>GitHub十大热点项目周报-2026年03月第2周</title>
-      <link>https://icybean.cn/blog/github-top-projects-weekly-2026-mar-week2</link>
-      <description>本周GitHub十大热门项目反映出数据结构与算法、AI、Web开发等多个技术领域的活跃。核心技术趋势包括算法教育、AI应用、Web爬虫等。值得开发者关注的方向包括跨平台算法教学、AI代理开发、自托管AI助手等。这些项目启示开发者，应关注技术多样性和前沿领域，提升自身综合能力。</description>
-      <pubDate>Mon, 09 Mar 2026 19:39:36 GMT</pubDate>
+      <title>图文详解 Claude Code 从入门到精通（一）：Claude Code 的安装与启动</title>
+      <link>https://icybean.cn/blog/claude-code-installation-startup</link>
+      <description>Claude Code是Anthropic推出的AI编程命令行工具，专为开发者提供终端内AI协作工作流。本文作为系列入门指南的第一篇，重点介绍其安装与启动流程。文章详细说明了系统要求，包括操作系统、Node.js版本和网络条件，并提供了原生安装和包管理器安装两种方法。针对国内用户，推荐使用智谱GLM Coding Plan以获得更稳定的网络体验和更高性价比，同时给出了具体的配置步骤和模型切换方法。</description>
+      <pubDate>Wed, 11 Mar 2026 16:47:25 GMT</pubDate>
       <category></category>
-      <guid isPermaLink="true">https://icybean.cn/blog/github-top-projects-weekly-2026-mar-week2</guid>
+      <guid isPermaLink="true">https://icybean.cn/blog/claude-code-installation-startup</guid>
+    </item>
+
+    <item>
+      <title>GitHub十大热点项目周报-2026年03月第3周</title>
+      <link>https://icybean.cn/blog/github-top-projects-weekly-2026-03-3</link>
+      <description>本周GitHub热门项目展现了算法教学、人工智能、网络编程等多个领域的活跃发展。核心技术趋势包括算法可视化、人工智能推理框架、跨平台终端等。值得开发者关注的方向包括算法学习、人工智能应用开发、网络编程等。项目启示开发者应关注技术前沿，注重实践，提高编程技能。</description>
+      <pubDate>Mon, 16 Mar 2026 13:27:03 GMT</pubDate>
+      <category></category>
+      <guid isPermaLink="true">https://icybean.cn/blog/github-top-projects-weekly-2026-03-3</guid>
     </item>
 
     <item>
@@ -51,6 +51,15 @@
       <pubDate>Mon, 02 Mar 2026 16:01:45 GMT</pubDate>
       <category></category>
       <guid isPermaLink="true">https://icybean.cn/blog/hello-world</guid>
+    </item>
+
+    <item>
+      <title>GitHub十大热点项目周报-2026年03月第2周</title>
+      <link>https://icybean.cn/blog/github-top-projects-weekly-2026-mar-week2</link>
+      <description>本周GitHub十大热门项目反映出数据结构与算法、AI、Web开发等多个技术领域的活跃。核心技术趋势包括算法教育、AI应用、Web爬虫等。值得开发者关注的方向包括跨平台算法教学、AI代理开发、自托管AI助手等。这些项目启示开发者，应关注技术多样性和前沿领域，提升自身综合能力。</description>
+      <pubDate>Mon, 09 Mar 2026 19:39:36 GMT</pubDate>
+      <category></category>
+      <guid isPermaLink="true">https://icybean.cn/blog/github-top-projects-weekly-2026-mar-week2</guid>
     </item>
   </channel>
 </rss>
