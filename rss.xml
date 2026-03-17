@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>冰豆知识站</title>
+    <title>我的技术博客</title>
     <link>https://icybean.cn</link>
-    <description>专注前后端开发技术分享，深入浅出讲解 Vue、Nuxt、Spring Boot 等技术栈</description>
+    <description>专注Java、Spring Boot、前端等技术分享，记录学习笔记和开发经验</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 17 Mar 2026 08:08:20 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Mar 2026 08:22:21 GMT</lastBuildDate>
     <atom:link href="https://icybean.cn/rss.xml" rel="self" type="application/rss+xml"/>
 
     <item>
