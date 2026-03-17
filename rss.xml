@@ -5,7 +5,7 @@
     <link>https://icybean.cn</link>
     <description>专注前后端开发技术分享，深入浅出讲解 Vue、Nuxt、Spring Boot 等技术栈</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 17 Mar 2026 00:59:15 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Mar 2026 01:46:11 GMT</lastBuildDate>
     <atom:link href="https://icybean.cn/rss.xml" rel="self" type="application/rss+xml"/>
 
     <item>
@@ -60,6 +60,15 @@
       <pubDate>Mon, 09 Mar 2026 19:39:36 GMT</pubDate>
       <category></category>
       <guid isPermaLink="true">https://icybean.cn/blog/github-top-projects-weekly-2026-mar-week2</guid>
+    </item>
+
+    <item>
+      <title>Windows 系统安装 Go 语言：从零搭建高效开发环境</title>
+      <link>https://icybean.cn/blog/install-go-on-windows</link>
+      <description>Go语言以其简洁语法和高效性能成为热门选择。对于Windows用户，正确配置开发环境是首要步骤。本文引导用户从安装到验证，详细讲解每一步骤。首先通过官方MSI安装包完成基础安装，然后理解并设置GOPATH工作区目录，接着配置GOPROXY国内镜像以解决网络问题，最后使用go mod init开启现代项目管理。一个稳固的环境是高效开发的基础。</description>
+      <pubDate>Tue, 17 Mar 2026 09:43:40 GMT</pubDate>
+      <category></category>
+      <guid isPermaLink="true">https://icybean.cn/blog/install-go-on-windows</guid>
     </item>
   </channel>
 </rss>
