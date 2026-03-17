@@ -5,13 +5,13 @@
     <link>https://icybean.cn</link>
     <description>专注前后端开发技术分享，深入浅出讲解 Vue、Nuxt、Spring Boot 等技术栈</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 17 Mar 2026 05:14:41 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Mar 2026 07:45:03 GMT</lastBuildDate>
     <atom:link href="https://icybean.cn/rss.xml" rel="self" type="application/rss+xml"/>
 
     <item>
-      <title>保姆级教程：手把手教你如何使用FlClash科学上网</title>
+      <title>FlClash科学上网教程：下载、安装、配置完整指南</title>
       <link>https://icybean.cn/blog/flclash-tutorial</link>
-      <description>FlClash是一款基于Flutter开发的跨平台Clash图形客户端，用于解决访问GitHub等国外网站时遇到的网络问题。它通过规则匹配智能分流，国内网站直连，国外网站走代理。使用前需关闭其他加速器软件，并获取代理订阅链接。本文提供了从注册购买订阅、下载安装客户端到配置FlClash的详细步骤，帮助用户实现科学上网。</description>
+      <description>FlClash科学上网教程，详解下载安装、订阅配置、节点选择全流程。解决GitHub等国外网站访问问题，支持Windows/Mac/Linux多平台，新手3分钟快速上手。</description>
       <pubDate>Sun, 08 Mar 2026 11:36:56 GMT</pubDate>
       <category></category>
       <guid isPermaLink="true">https://icybean.cn/blog/flclash-tutorial</guid>
