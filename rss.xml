@@ -5,7 +5,7 @@
     <link>https://icybean.cn</link>
     <description>专注Java、Spring Boot、前端等技术分享，记录学习笔记和开发经验</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 30 Mar 2026 02:08:51 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2026 09:18:23 GMT</lastBuildDate>
     <atom:link href="https://icybean.cn/rss.xml" rel="self" type="application/rss+xml"/>
 
     <item>
@@ -27,12 +27,12 @@
     </item>
 
     <item>
-      <title>GitHub十大热点项目周报-2026年04月第1周</title>
-      <link>https://icybean.cn/blog/github-top-10-projects-weekly-2026-april-1</link>
-      <description>本周GitHub热门项目反映出人工智能与自动化技术趋势。AI辅助编程、自动化赚钱工具、内存引擎等领域的项目备受关注。开发者应关注AI技术、自动化流程和内存优化等技术方向，在追求技术进步的同时注重实用性和创新性，以适应快速发展的技术环境。</description>
-      <pubDate>Mon, 30 Mar 2026 10:06:41 GMT</pubDate>
+      <title>GitHub十大热点项目周报-2026年04月第2周</title>
+      <link>https://icybean.cn/blog/github-top-projects-weekly-april-2026-week2</link>
+      <description>本周GitHub十大热门项目反映了当前技术趋势，集中在人工智能、前端开发、物联网和系统工具等领域。JavaScript和Rust语言使用频率较高，显示出在AI和系统工具开发中的广泛应用。多个项目聚焦于AI代理和代码辅助，预示着AI在软件开发中的应用越来越广泛。开发者应关注AI、前端框架和物联网技术，以提升开发效率和项目质量。</description>
+      <pubDate>Mon, 06 Apr 2026 17:06:53 GMT</pubDate>
       <category></category>
-      <guid isPermaLink="true">https://icybean.cn/blog/github-top-10-projects-weekly-2026-april-1</guid>
+      <guid isPermaLink="true">https://icybean.cn/blog/github-top-projects-weekly-april-2026-week2</guid>
     </item>
 
     <item>
@@ -87,6 +87,15 @@
       <pubDate>Mon, 23 Mar 2026 16:15:17 GMT</pubDate>
       <category></category>
       <guid isPermaLink="true">https://icybean.cn/blog/github-top-projects-weekly-mar-2026</guid>
+    </item>
+
+    <item>
+      <title>GitHub十大热点项目周报-2026年04月第1周</title>
+      <link>https://icybean.cn/blog/github-top-10-projects-weekly-2026-april-1</link>
+      <description>本周GitHub热门项目反映出人工智能与自动化技术趋势。AI辅助编程、自动化赚钱工具、内存引擎等领域的项目备受关注。开发者应关注AI技术、自动化流程和内存优化等技术方向，在追求技术进步的同时注重实用性和创新性，以适应快速发展的技术环境。</description>
+      <pubDate>Mon, 30 Mar 2026 10:06:41 GMT</pubDate>
+      <category></category>
+      <guid isPermaLink="true">https://icybean.cn/blog/github-top-10-projects-weekly-2026-april-1</guid>
     </item>
   </channel>
 </rss>
