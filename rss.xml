@@ -5,7 +5,7 @@
     <link>https://icybean.cn</link>
     <description>专注Java、Spring Boot、前端等技术分享，记录学习笔记和开发经验</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 08 Apr 2026 11:16:27 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 16:19:13 GMT</lastBuildDate>
     <atom:link href="https://icybean.cn/rss.xml" rel="self" type="application/rss+xml"/>
 
     <item>
@@ -33,6 +33,15 @@
       <pubDate>Mon, 06 Apr 2026 17:06:53 GMT</pubDate>
       <category></category>
       <guid isPermaLink="true">https://icybean.cn/blog/github-top-projects-weekly-april-2026-week2</guid>
+    </item>
+
+    <item>
+      <title>Clash for Windows 配置教程：从安装到代理设置完整指南（2026更新版）</title>
+      <link>https://icybean.cn/blog/clash-for-windows-configuration-guide-2026</link>
+      <description>Clash for Windows 完整配置教程：软件下载安装、订阅链接获取、系统代理设置全流程详解。适合 Windows 用户的代理客户端使用指南，附常见问题解答与故障排查技巧。</description>
+      <pubDate>Fri, 10 Apr 2026 00:07:50 GMT</pubDate>
+      <category></category>
+      <guid isPermaLink="true">https://icybean.cn/blog/clash-for-windows-configuration-guide-2026</guid>
     </item>
 
     <item>
