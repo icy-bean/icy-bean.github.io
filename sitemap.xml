@@ -21,6 +21,9 @@
     <url>
         <loc>https://icybean.cn/blog</loc>
         <image:image>
+            <image:loc>https://cdn.icybean.cn/blog/images/2026/04/10/495fcd5618b04bbca656fd52111d2b6d.png</image:loc>
+        </image:image>
+        <image:image>
             <image:loc>https://cdn.icybean.cn/blog/images/2026/04/09/6efdbe1878de469f88fd31e3fd21d138</image:loc>
         </image:image>
         <image:image>
@@ -56,6 +59,33 @@
     </url>
     <url>
         <loc>https://icybean.cn/toolbox</loc>
+    </url>
+    <url>
+        <loc>https://icybean.cn/blog/clash-android-config-guide-2026</loc>
+        <image:image>
+            <image:loc>https://cdn.icybean.cn//blog/images/2026/03/07/c02f14637c34405ca08009e3d7f073c4.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.icybean.cn//blog/images/2026/03/07/8899f1574c474e70905222c8d24cf8b2.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.icybean.cn//blog/images/2026/03/07/f7790659a9e343079323ae8bc4609754.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.icybean.cn//blog/images/2026/03/07/2b289029b0c6432cad5618a096d856e1.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.icybean.cn/blog/images/2026/04/10/0973dd26f2eb4acb9a836d2f053e990d.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.icybean.cn/blog/images/2026/04/10/c5ec4180648a474280256cf67b86ebe8.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.icybean.cn/blog/images/2026/04/10/b2dade9d023142919acbda12261c1466.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.icybean.cn/blog/images/2026/04/10/0d04d35b5b654beaa01e8b13a99df00b.png</image:loc>
+        </image:image>
     </url>
     <url>
         <loc>https://icybean.cn/blog/clash-for-windows-configuration-guide-2026</loc>
@@ -201,6 +231,9 @@
     <url>
         <loc>https://icybean.cn/categories/web-tools-tutorial</loc>
         <image:image>
+            <image:loc>https://cdn.icybean.cn/blog/images/2026/04/10/495fcd5618b04bbca656fd52111d2b6d.png</image:loc>
+        </image:image>
+        <image:image>
             <image:loc>https://cdn.icybean.cn/blog/images/2026/04/09/6efdbe1878de469f88fd31e3fd21d138</image:loc>
         </image:image>
         <image:image>
@@ -208,7 +241,19 @@
         </image:image>
     </url>
     <url>
+        <loc>https://icybean.cn/tags/android</loc>
+        <image:image>
+            <image:loc>https://cdn.icybean.cn/blog/images/2026/04/10/495fcd5618b04bbca656fd52111d2b6d.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://icybean.cn/images/psg-icon.png</image:loc>
+        </image:image>
+    </url>
+    <url>
         <loc>https://icybean.cn/tags/clash</loc>
+        <image:image>
+            <image:loc>https://cdn.icybean.cn/blog/images/2026/04/10/495fcd5618b04bbca656fd52111d2b6d.png</image:loc>
+        </image:image>
         <image:image>
             <image:loc>https://cdn.icybean.cn/blog/images/2026/04/09/6efdbe1878de469f88fd31e3fd21d138</image:loc>
         </image:image>
@@ -265,7 +310,19 @@
         </image:image>
     </url>
     <url>
+        <loc>https://icybean.cn/tags/mobile-proxy</loc>
+        <image:image>
+            <image:loc>https://cdn.icybean.cn/blog/images/2026/04/10/495fcd5618b04bbca656fd52111d2b6d.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://icybean.cn/images/psg-icon.png</image:loc>
+        </image:image>
+    </url>
+    <url>
         <loc>https://icybean.cn/tags/network-tools</loc>
+        <image:image>
+            <image:loc>https://cdn.icybean.cn/blog/images/2026/04/10/495fcd5618b04bbca656fd52111d2b6d.png</image:loc>
+        </image:image>
         <image:image>
             <image:loc>https://cdn.icybean.cn/blog/images/2026/04/09/6efdbe1878de469f88fd31e3fd21d138</image:loc>
         </image:image>
@@ -276,6 +333,9 @@
     <url>
         <loc>https://icybean.cn/tags/proxy</loc>
         <image:image>
+            <image:loc>https://cdn.icybean.cn/blog/images/2026/04/10/495fcd5618b04bbca656fd52111d2b6d.png</image:loc>
+        </image:image>
+        <image:image>
             <image:loc>https://cdn.icybean.cn/blog/images/2026/04/09/6efdbe1878de469f88fd31e3fd21d138</image:loc>
         </image:image>
         <image:image>
@@ -284,6 +344,9 @@
     </url>
     <url>
         <loc>https://icybean.cn/tags/vpn</loc>
+        <image:image>
+            <image:loc>https://cdn.icybean.cn/blog/images/2026/04/10/495fcd5618b04bbca656fd52111d2b6d.png</image:loc>
+        </image:image>
         <image:image>
             <image:loc>https://cdn.icybean.cn/blog/images/2026/04/09/6efdbe1878de469f88fd31e3fd21d138</image:loc>
         </image:image>
@@ -322,4 +385,4 @@
         </image:image>
     </url>
 </urlset>
-<!-- XML Sitemap generated by @nuxtjs/sitemap v7.6.0 at 2026-04-09T16:19:17.228Z -->
+<!-- XML Sitemap generated by @nuxtjs/sitemap v7.6.0 at 2026-04-09T17:07:48.409Z -->
