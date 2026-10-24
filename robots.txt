@@ -10,5 +10,5 @@ Disallow: /api
 Disallow: /_nuxt
 Disallow: /_error
 
-# Sitemap 位置
-Sitemap: https://www.icybean.cn/sitemap.xml
+# Sitemap 位置（与 nuxt.config.ts 站点配置保持一致的裸域名，避免爬虫多跳 www 重定向）
+Sitemap: https://icybean.cn/sitemap.xml
